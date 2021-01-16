@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginSide">16dp</dimen>
+    <dimen name="textTitlesSize">20sp</dimen>
+    <dimen name="textDefaultSize">16sp</dimen>
+    <dimen name="textSpacingSize">1sp</dimen>
+</resources>

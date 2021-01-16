@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TZ_tab</string>
+    <string name="text_title_survey">Survey</string>
+    <string name="text_start_survey">Start survey</string>
+    <string name="text_submit_survey">Submit survey</string>
+    <string name="text_snack_success">Thank you, your survey has been sent</string>
+    <string name="text_undo">UNDO</string>
+</resources>

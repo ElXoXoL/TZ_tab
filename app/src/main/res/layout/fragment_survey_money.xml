@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <TextView
+        android:id="@+id/tv_money_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textTitle"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text=""
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.test.tz_tab.survey.money.MoneyEdit
+        android:id="@+id/et_money_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        style="@style/textTitle"
+        android:textSize="52sp"
+        android:textColor="@color/darkTextColor"
+        android:textColorHint="@color/darkTextColor"
+        android:cursorVisible="false"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="0,00"
+        android:inputType="number"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/tv_money_title"
+        />
+
+    <TextView
+        android:id="@+id/tv_money_currency"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:background="@drawable/bg_currency"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="@dimen/marginSide"
+        style="@style/textDefault"
+        android:text="EUR"
+        android:textSize="14sp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_money_value"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start_survey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/buttonDefault"
+        android:padding="13dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/text_submit_survey"
+        app:cornerRadius="5dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@id/tv_money_currency"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

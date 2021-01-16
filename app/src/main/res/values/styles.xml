@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">@dimen/textSpacingSize</item>
+    </style>
+    
+    <style name="textTitle" parent="AppTheme">
+        <item name="android:textColor">@color/defTextColor</item>
+        <item name="android:textSize">@dimen/textTitlesSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textDefault" parent="AppTheme">
+        <item name="android:textColor">@color/defTextColor</item>
+        <item name="android:textSize">@dimen/textDefaultSize</item>
+    </style>
+
+    <style name="buttonDefault" parent="AppTheme">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textDefaultSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+</resources>
